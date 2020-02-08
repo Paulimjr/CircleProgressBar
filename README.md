@@ -1,8 +1,8 @@
-<h3 align="center">FloatingView</h3>
+<h3 align="center">CircleProgressBar</h3>
 
 Use the CircleProgressBar as a progress in your Android Application.
 
-<img width="320" height="240" src="images/circleProgressBar.gif">
+<img width="350" height="480" src="images/circleProgressBar.gif">
 
 Usage
 -----
