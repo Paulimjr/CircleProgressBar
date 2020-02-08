@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        progress_circular.setProgressAnimation(40f,1200)
+        progress_circular.setProgressAnimation(40f,2000)
         progress_circular.runProgress(progressListener)
     }
 
