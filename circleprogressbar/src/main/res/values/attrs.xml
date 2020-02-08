@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Sets the values for the CircleProgressBar -->
+    <declare-styleable name="CircleProgressBar">
+        <!-- Sets the max value of progress -->
+        <attr name="maxProgress" format="integer"/>
+        <!-- Sets the min value of progress -->
+        <attr name="minProgress" format="integer"/>
+        <!-- Sets the stroke width of progress -->
+        <attr name="strokeWidth" format="integer"/>
+        <!-- Sets the value of progress -->
+        <attr name="progress" format="integer"/>
+        <!-- Sets the color of progress -->
+        <attr name="progressColor" format="color"/>
+        <!-- Sets the identifier of progress -->
+        <attr name="progressIdentifier" format="string"/>
+    </declare-styleable>
+
+</resources>
