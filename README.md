@@ -2,7 +2,7 @@
 
 Use the CircleProgressBar as a progress in your Android Application.
 
-<img width="320" height="450" src="images/circleProgressBar.gif">
+<img width="320" height="400" src="images/circleProgressBar.gif">
 
 Usage
 -----
