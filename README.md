@@ -1,7 +1,6 @@
-<h3 align="center">CircleProgressBar</h3>
-<h3 align="center">
+# CircleProgressBar
+
 [![](https://jitpack.io/v/Paulimjr/CircleProgressBar.svg)](https://jitpack.io/#Paulimjr/CircleProgressBar)
-</h3>
 
 Use the CircleProgressBar as a progress in your Android Application.
 
