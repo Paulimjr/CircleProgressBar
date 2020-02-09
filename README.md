@@ -71,6 +71,22 @@ Add the dependency
         }
 ```
 
+### Callback
+
+Callback of the CircleProgressBar
+
+```kotlin
+    /**
+     * Get the current value of the progress and color
+     */
+    fun onProgressValue(progress: String, textColor: Int)
+    
+    /**
+     * Callback when the progress is finished
+     */
+    fun onProgressEnd()
+```
+
 <h2>Customization in CircleProgressBar XML</h2>
 
 | Attribute | Type | Description | Default |
