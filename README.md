@@ -1,6 +1,7 @@
 # CircleProgressBar
 
 [![](https://jitpack.io/v/Paulimjr/CircleProgressBar.svg)](https://jitpack.io/#Paulimjr/CircleProgressBar)
+![Minimum SDK](https://img.shields.io/badge/minSdkVersion%20-15-blue.svg)
 
 Use the CircleProgressBar as a progress in your Android Application.
 
@@ -53,8 +54,8 @@ Add the dependency
 ### Executing the CircleProgressBar in Kotlin
 
 ```text
-The setProgressAnimation method you will pass your progress value and delay that you want to start the animation. 
-Also, runProgress you add the callback interface.
+* Use `setProgressAnimation (float, int) ` method to start the circle progress.
+* Use `runProgress (interface) ` method to obtain the callback of the circle progress.
 ```
 
 ```kotlin
