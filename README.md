@@ -52,7 +52,7 @@ Add the dependency
 ```
 
 * Use `setProgressAnimation (float, int) ` method to start the circle progress.
-* Use `runProgress (interface) ` method to obtain the callback of the circle progress.
+* Use `runProgress (interface) ` method to set the callback of the circle progress.
 
 ```kotlin
     override fun onResume() {
