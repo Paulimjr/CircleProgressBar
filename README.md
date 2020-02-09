@@ -52,6 +52,10 @@ Add the dependency
 
 ### Executing the CircleProgressBar in Kotlin
 
+```text
+    The setProgressAnimation method you will pass your progress value and delay that you want to start the animation. Also, runProgress you add the callback interface.
+```
+
 ```kotlin
     override fun onResume() {
             super.onResume()
