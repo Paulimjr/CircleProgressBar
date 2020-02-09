@@ -22,11 +22,12 @@ class MainActivity : AppCompatActivity() {
     private val progressListener = object : CircleProgressBar.CircleProgressBarCallback {
 
         override fun onProgressEnd() {
-            //TODO do something...
+            Toast.makeText(this@MainActivity, "Progress finished!", Toast.LENGTH_SHORT).show()
         }
 
         override fun onProgressValue(progress: String, textColor: Int) {
-            //TODO do something...
+            tvProgress.setTextColor(textColor)
+            tvProgress.text = progress
         }
     }
 }
