@@ -32,4 +32,49 @@ Add the dependency
     }
 ```
 
+### Adding in your layout XML
 
+```xml
+
+    <com.pcamilojr.circleprogressbar.CircleProgressBar
+        android:id="@+id/progress_circular"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:progress="0"
+        app:strokeWidth="9"
+        app:progressColor="@color/colorAccent"/>
+
+```
+
+### Executing the CircleProgressBar in Kotlin
+
+```kotlin
+    override fun onResume() {
+            super.onResume()
+            progress_circular.setProgressAnimation(40f,2000)
+            progress_circular.runProgress(progressListener)
+        }
+    
+        private val progressListener = object : CircleProgressBar.CircleProgressBarCallback {
+    
+            override fun onProgressEnd() {
+                //TODO do something...
+            }
+    
+            override fun onProgressValue(progress: String, textColor: Int) {
+                //TODO do something...
+            }
+        }
+```
+
+<h2>Customization in CircleProgressBar XML</h2>
+
+| Attribute | Type | Description | Default |
+|---|---|---|---|
+| progress | int | The progress of circle | 0 |
+| progressColor | int | The color of the circle | Color.GRAY |
+| strokeWidth | int | The stroke width of the circle | 8 |
