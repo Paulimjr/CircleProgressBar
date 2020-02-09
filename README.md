@@ -78,6 +78,9 @@ Callback of the CircleProgressBar
 ```kotlin
     /**
      * Get the current value of the progress and color
+     * 
+     * @param progress the current value of the progress Ex: 30%
+     * @param textColor the color of the progress
      */
     fun onProgressValue(progress: String, textColor: Int)
     
