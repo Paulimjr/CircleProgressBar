@@ -64,7 +64,7 @@ class CircleProgressBar(context: Context?, attrs: AttributeSet?) : View(context,
 
             typedArray?.let {
                 try {
-                    progress = it.getFloat(R.styleable.CircleProgressBar_progress, progress)
+                    progress = it.getFloat(R.styleable.CircleProgressBar_progressCircleBar, progress)
                     color = it.getInt(R.styleable.CircleProgressBar_progressColor, color)
                     max = it.getInt(R.styleable.CircleProgressBar_maxProgress, max)
                     min = it.getInt(R.styleable.CircleProgressBar_minProgress, min)
@@ -173,7 +173,9 @@ class CircleProgressBar(context: Context?, attrs: AttributeSet?) : View(context,
             }
 
             override fun onAnimationEnd(animation: Animator?) {
-                mListener?.onProgressEnd()
+                mListener?.let {
+                    it.onProgressEnd()
+                }
             }
 
             override fun onAnimationStart(animation: Animator?) {

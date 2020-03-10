@@ -10,7 +10,7 @@
         <!-- Sets the stroke width of progress -->
         <attr name="strokeWidth" format="integer"/>
         <!-- Sets the value of progress -->
-        <attr name="progress" format="integer"/>
+        <attr name="progressCircleBar" format="integer"/>
         <!-- Sets the color of progress -->
         <attr name="progressColor" format="color"/>
         <!-- Sets the identifier of progress -->

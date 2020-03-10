@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        progress_circular.setProgressAnimation(40f,2000)
         progress_circular.runProgress(progressListener)
+        progress_circular.setProgressAnimation(40f,2000)
     }
 
     private val progressListener = object : CircleProgressBar.CircleProgressBarCallback {
